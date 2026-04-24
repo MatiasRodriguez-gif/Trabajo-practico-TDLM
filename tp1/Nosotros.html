@@ -10,14 +10,16 @@
         <h1>¿Quienes somos?</h1>
         <nav>
             <ul>
-                <li> <a href="Historia"> Nuestra Historia </a> </li>
-                <li> <a href="Valores"> Lo que nos mueve </a> </li>
-                <li> <a href="Equipo"> Nuestro equipo </a> </li>
+                <li> <a href="#historia"> Nuestra Historia </a> </li>
+                <li> <a href="#Valores"> Lo que nos mueve </a> </li>
+                <li> <a href="#Equipo"> Nuestro equipo </a> </li>
+                <li> <a href="#Datos"> Datos institucionales</a> </li>
+                <li> <a href="#Sumate"> Sumate al equipo</a> </li>
             </ul>
         </nav>
     </header>
     <br><br>
-    <section id="Historia">
+    <section id="historia">
         <h2>Nuestra historia</h2>
         <p>
             Bit de Esperanza nació en 2021 en un aula de facultad.
@@ -42,33 +44,75 @@
             <dd>Creemos en la trazabilidad total. Cada donante recibe un informe sobre el destino final de su equipo y el impacto social generado</dd>
         </dl>
     </section>
+    <br><br>
+    <section id="Equipo">
+        <h2>Nuestro Equipo</h2>
+        <dl>   
+            <dt>Andrew Morais, director ejecutivo</dt>
+            <dd>Apasionado por la educación y la ingeniería. Su visión es que cada escuela tenga su propio laboratorio de computación.</dd>
+            <dt>Ludovico Correa, Jefe de laboratorio</dt>
+            <dd>El "mago" que revive computadoras que todos daban por perdidas. Es el encargado de supervisar el borrado seguro de datos.</dd>
+            <dt>Cecilia Dipascuale, Coordinadora de Logística</dt>
+            <dd>Experta en hacer que las cosas lleguen a donde parece imposible llegar.</dd>
+        </dl>
+    </section>
+    <br><br>
+    <secton id="Datos">
+        <h2>Datos institucionales</h2>
+        <dl>
+            <dt>Nombre Legal</dt>
+            <dd>Bit de Esperanza - Asociación Civil para la Inclusión Digital</dd>
 
+            <dt>Número de Registro Social</dt>
+            <dd>IGJ 19283746-AC</dd>
 
+            <dt>Sede Central</dt>
+            <dd>Tte. Manuel Origone 151, Villa Tesei, provincia de Buenos Aires</dd>
+
+            <dt>Contacto Institucional</dt>
+            <dd>info@bitDeEsperanza.org.ar</dd>
+        </dl>
+
+    </secton>
 
 
 
 
     <br><br><br><br><br><br><br>
 
+    <section id="Sumate">
+        <h2>Sumate a nuestro equipo</h2>
 
-    <form action="#" method="post">
-        <label for="nombre">Nombre y apellido</labe>
-        <input type="text" id="nombre" name="nombre"
-            placeholder="ej: Garcia" required>
-        <br><br>
+        <form action="#" method="post">
+            <label for="nombre">Nombre y apellido</labe>
+            <input type="text" id="nombre" name="nombre"
+                placeholder="ej: Garcia" required>
+            <br><br>
+ 
+            <label for="email">Correo electronico</label>
+            <input type="email" id="email" name="email" 
+            placeholder="tu@mail.com" required>
+            <br><br>
+
+            <label for="telefono">Numero de Telefono</label>
+            <input type="tel" id="telefono" name="telefono" 
+            placeholder="+5411 0000-000">
+            <br><br>
+        </form>
+    </section>
+    <br><br><br><br>
+
+    <footer id="Contacto">
+        <h2>Contacto</h2>
+        <p>
+            <a href="mailito:info@bitDeEsperanza.org.ar">info@bitDeEsperanza.com.ar</a><br>
+            <a href="https://instagram.com/bitDeEsperanza_org" target="_blank">
+                Seguinos en instagram
+            </a>
+        </p>
 
 
-        <label for="email">Correo electronico</label>
-        <input type="email" id="email" name="email" 
-        placeholder="tu@mail.com" required>
-        <br><br>
-
-        <label for="telefono">Numero de Telefono</label>
-        <input type="tel" id="telefono" name="telefono" 
-        placeholder="+5411 0000-000">
-        <br><br>
-    </form>
-
+   </footer>
 
 
 </body>
