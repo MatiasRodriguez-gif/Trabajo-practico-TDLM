@@ -9,30 +9,66 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <title>Bit de Esperanza</title>
 </head> 
-
+ 
 <body>
    <header>
-        <h1>Bit de esperanza</h1>
-        <h2> <em>Dona tus dispositivos encende un futuro</em></h2>
+        <div class="logo">
+            <img src="/tp1/img/logoCeleste.png" alt="Bit De Esperanza">
+        </div>
 
+        <h1>BIT DE <br> ESPERANZA</h1>
+        
         <nav>
             <ul>
-                <li>     <a href="#programas"> Programas</a>    </li>
-                <li>     <a href="#Impacto"> Impacto    </a>    </li>
-                <li>     <a href="#Nosotros"> Contacto  </a>    </li>
-                <li>     <a href="#Sumate"> Sumate      </a>    </li>
-                <li>     <a href="#Contacto"> Contacto  </a>    </li>
+                <li>     <a href="#programas"><strong> Programas</strong></a>    </li>
+                <li>     <a href="#Impacto"> <strong>Impacto   </strong> </a>    </li>
+                <li>     <a href="#Nosotros"> <strong>Nosotros</strong>  </a>    </li>
+                <li>     <a href="#Sumate"> <strong>Sumate </strong>     </a>    </li>
+                <li>     <a href="#Contacto"> <strong>Contacto</strong>  </a>    </li>
             </ul>
         </nav>
+        <div class="donar">
+                   <a href="/tp1/sumate.html"> <strong>Donar</strong>  </a> 
+                </div>
    </header> 
    
    <main>
-        <section>
-            <h2>Tu tecnologia vieja es un futuro nuevo</h2>
-                <p> Tu equipo viejo es su nueva oportunidad. Restauramos hardware para conectar a escuelas con el futuro.</p>
-                <img src="/tp1/img/notebook.jpg" alt="Notebook antes de reparar" class="fotoRedonda">
-        </section>
+        <div class="inicio">
+        <img src="/tp1/img/escuelaRural.jpg" alt="Escuela Rural">
+        </div>
         <br><br>
+        <br><br>
+        <section id="Impacto">
+            <h2> Nuestro impacto </h2>
+            
+            <div class="columna">
+                <img src="/tp1/img/nenesConNotebooks.jpg" alt="Niños Con Notebooks"> 
+            
+            
+                <table>
+                    <tr>
+                        <th>Instituciones alcanzadas</th>
+                        <td>46 instituciones</td>
+                    </tr>
+                    <tr>
+                        <th>Computadoras entregadas</th>
+                        <td>382 equipos</td>
+                    </tr>
+                    <tr>
+                        <th>Alumnos capacitados</th>
+                        <td>+3000 estudiantes</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+
+        <aside class="dato-ecologico">
+            <h3>Marca la diferencia</h3>
+            <p>La basura electrónica es la que más rápido crece en el mundo. Al donar tu computadora a Bit de Esperanza, no solo ayudás a la educación de un estudiante, sino que también evitás que metales pesados contaminen nuestro suelo y el agua.</p>
+            <img src="/tp1/img/contaminacionAmbiental.jpg" alt="contaminacion Ambiental">
+        </aside>
+        
         <section id="programas">
             <h2> Nuestro Programa </h2>                  
             <h3>Con la ayuda de donaciones particulares hacemos equipos completamente utilizables e instalaciones en las instituciones.</h3>
@@ -48,32 +84,6 @@
                 <li>Si la institucion no tiene acceso a internet hacemos la instalacion de routers.</li>
             </ul>
 
-        </section>
-
-        <aside class="dato-ecologico">
-            <h3>¿Sabías qué?</h3>
-            <p>La basura electrónica es la que más rápido crece en el mundo. Al donar tu computadora a Bit de Esperanza, no solo ayudás a la educación de un estudiante, sino que también evitás que metales pesados contaminen nuestro suelo y el agua.</p>
-        </aside>
-
-        <br><br>
-        <section id="Impacto">
-            <h2> Nuestro impacto </h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Instituciones alcanzadas  </th>
-                        <th>Computadoras entregadas   </th>
-                        <th>Alumnos capacitados       </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>46 instituciones</td>
-                        <td>382 equipos</td>
-                        <td>+3000 estudiantes</td>
-                    </tr>
-                </tbody>
-            </table>
         </section>
         <article class="caso-exito">
             <h3>La Escuela N° 45 de paraje rural estrena su primer laboratorio digital</h3>
@@ -114,8 +124,13 @@
 
         <br><br>
    </main>
+
+   <script src="/tp1/js/java.js"></script>
         
-   <footer id="Contacto">
+   
+
+</body>
+<footer id="Contacto">
         <h2>Contacto</h2>
         <address>
             Contacto: <a href="mailto:info@bitDeEsperanza.org.ar">info@bitDeEsperanza.com.ar</a><br>
@@ -124,21 +139,9 @@
             
         </address>
 
-    </footer>
+</footer>
 
-</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
