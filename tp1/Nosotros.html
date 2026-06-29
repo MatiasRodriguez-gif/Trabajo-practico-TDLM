@@ -8,18 +8,27 @@
 </head> 
 <body>
     <header>  
-        <h1>&iquest;Qui&eacute;nes somos?</h1>
+         <div class="logo">
+           <a href="/tp1/index.html"> <img src="/tp1/img/logoCeleste.png" alt="Bit De Esperanza"></a>
+        </div>
+
+        <h1>BIT DE <br> ESPERANZA</h1>
+        
         <nav>
             <ul>
                 <li> <a href="#historia"> Nuestra Historia      </a> </li>
                 <li> <a href="#Valores"> Lo que nos mueve       </a> </li>
                 <li> <a href="#Equipo"> Nuestro equipo          </a> </li>
                 <li> <a href="#Datos"> Datos institucionales    </a> </li>
-                <li> <a href="/sumate.html"> Sumate al equipo   </a> </li>
+                <li> <a href="/tp1/sumate.html"> Sumate al equipo   </a> </li>
             </ul>
         </nav>
+        <div class="donar">
+                   <a href="/tp1/sumate.html"> <strong>Donar</strong>  </a> 
+                </div>
     </header>
 
+    
     <section id="historia">
         <h2>Nuestra historia</h2>
         <p>
@@ -34,26 +43,49 @@
     </section>
 
     <section id="Valores">
+        <div class="valor">
         <h2>Lo que nos mueve</h2>
-        <dl>
-            <dt>Igualdad de oportunidades</dt>
-            <dd>Creemos que el acceso a la informaci&oacute;n es un derecho, no un privilegio.</dd>
-            <dt>Sustentabilidad</dt>
-            <dd>No vemos basura, vemos recursos. Extendemos el ciclo de vida de los productos electr&oacute;nicos para proteger el planeta y reducir los desechos t&oacute;xicos.</dd>
-            <dt>Transparencia</dt>
-            <dd>Creemos en la trazabilidad total. Cada donante recibe un informe sobre el destino final de su equipo y el impacto social generado.</dd>
-        </dl>
+        
+        <table>
+            <tr>
+                    <th>Igualdad de oportunidades</th>
+                    <td>Creemos que el acceso a la informaci&oacute;n es un derecho, no un privilegio.</td>
+            </tr>
+            <tr>
+                    <th>Sustentabilidad</th>
+                    <td>No vemos basura, vemos recursos. Extendemos el ciclo de vida de los productos electr&oacute;nicos para proteger el planeta y reducir los desechos t&oacute;xicos.</td>
+            </tr>
+            <tr>
+                    <th>Transparencia</th>
+                    <td>Creemos en la trazabilidad total. Cada donante recibe un informe sobre el destino final de su equipo y el impacto social generado.</td>
+            </tr>
+        </table>
+        </div>
     </section>
 
     <section id="Equipo">
         <h2>Nuestro Equipo</h2>   
-            <h3>Andrew Morais, director ejecutivo</h3>
+        <table>
+            <tr>
+                    <th>Andrew Morais, Director Ejecutivo</th>
+                    <td>Apasionado por la educaci&oacute;n y la ingenier&iacute;a. Su visi&oacute;n es que cada escuela tenga su propio laboratorio de computaci&oacute;n.</td>
+            </tr>
+            <tr>
+                    <th>Ludovico Correa, Jefe de Laboratorio</th>
+                    <td>El "mago" que revive computadoras que todos daban por perdidas. Es el encargado de supervisar el borrado seguro de datos.</td>
+            </tr>
+            <tr>
+                    <th>Cecilia Dipascuale, Coordinadora de Log&iacute;stica</th>
+                    <td>Experta en hacer que las cosas lleguen a donde parece imposible llegar.</td>
+            </tr>
+        </table>
+            <!--<h3>Andrew Morais, director ejecutivo</h3>
             <p>Apasionado por la educaci&oacute;n y la ingenier&iacute;a. Su visi&oacute;n es que cada escuela tenga su propio laboratorio de computaci&oacute;n.</p>
             <h3>Ludovico Correa, Jefe de laboratorio</h3>
             <p>El "mago" que revive computadoras que todos daban por perdidas. Es el encargado de supervisar el borrado seguro de datos.</p>
             <h3>Cecilia Dipascuale, Coordinadora de Log&iacute;stica</h3>
-            <p>Experta en hacer que las cosas lleguen a donde parece imposible llegar.</p>
-            <img src="/img/elEquipo.jpg" alt="Imagen del equipo">
+            <p>Experta en hacer que las cosas lleguen a donde parece imposible llegar.</p>-->
+            <img src="/tp1/img/equipoDeTrabajo.jpg" alt="Imagen del equipo">
     </section>
 
     <section id="Datos">
@@ -66,15 +98,20 @@
             <dt>Sede Central</dt>
             <dd>Tte. Manuel Origone 151, Villa Tesei, provincia de Buenos Aires</dd>
             <dt>Contacto Institucional</dt>
-            <dd>info@bitDeEsperanza.org.ar</dd>
+            <dd><a href="mailto:info@bitDeEsperanza.org.ar">info@bitDeEsperanza.com.ar</a></dd>
         </dl>
     </section>
+     <script src="/tp1/js/java.js"></script>
 
-    <footer id="Contacto">
+<footer id="Contacto">
         <h2>Contacto</h2>
-    
-            <a href="mailto:info@bitDeEsperanza.org.ar">info@bitDeEsperanza.com.ar</a><br>
-            <a href="https://instagram.com/bitDeEsperanza_org" target="_blank">Seguinos en instagram  </a>
-    </footer>
+        <address>
+            Contacto: <a href="mailto:info@bitDeEsperanza.org.ar">info@bitDeEsperanza.com.ar</a><br>
+            Seguinos en <a href="https://www.instagram.com/nmati.i/" target="_blank">instagram  </a><br>
+            Telefono <a href="tel+541140000000">+54 11 4040-1010 </a>
+            
+        </address>
+
+</footer>
 </body>
 </html>

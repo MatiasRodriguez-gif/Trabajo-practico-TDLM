@@ -50,12 +50,12 @@ header h1{
     
 }
 nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        box-sizing: border-box;
-        padding: 15px 40px;
-        margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px 40px;
+    margin: 0 auto;
     }
 nav ul{
     display: flex;
@@ -115,18 +115,14 @@ body{
 }
 section {
     align-items: center;
-    background-image: url(/tp1/img/textura.png);
-    color: #ffffff;
-    border-color: 20px solid #1bbeff;
-    
+    color: #000000;
 }
 section h2{
-    color: #ffffff;
     font-family: 'Montserrat';
     font-size: 3rem;
     margin: 50px;
     box-shadow: 0px 2px  #b3b2b2;
-  
+    letter-spacing: 4px;
 }
 .columna{
     display: flex;
@@ -135,12 +131,20 @@ section h2{
     margin: 0 auto ;
 
 }
+#Impacto h2{
+    color: #fafafa;
+    border: white;
+}
+#Impacto{
+    background-image: url(/tp1/img/textura.png);
+    color: #fafafa;
+    padding: 40px;
+}
 #Impacto img{
     flex: 1;
     width: 50%;
     border-left: 3px solid #b3b2b2;
-    border-right: 3px solid #b3b2b2;
-    
+    border-right: 3px solid #b3b2b2;   
 }
 #Impacto table{
     flex: 1;
@@ -149,27 +153,22 @@ section h2{
     border-right: 3px solid #b3b2b2;
 }
 #Impacto th{
-    border-left:7px solid #1bbeff;
+    border-left:7px solid #9d9e9e;
     border-radius: 2%;
     box-shadow: 0px 2px  #c9c9c936;
-    
-    
 }
 #Impacto tr{
     background-color: #86868636;
     box-shadow: 0px 2px  #c9c9c936;
-  
-   
-
 }
-aside{
+aside, article{
     margin-left: 400px;
     margin-right: 400px;
     margin-top: 150px;
     margin-bottom: 150px;
 
 }
-aside h3{
+h3{
     font-size: 3rem;
     letter-spacing: 4px;
 }
@@ -178,4 +177,200 @@ aside img{
     width: 500px;
     height: auto;
     border: 5px solid #000000;
+}
+article img{
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    border: 5px solid #000000;
+
+}
+article a{
+    text-decoration: none;
+    color: #000000;
+}
+article a:hover{
+    background-color: #9b9b9b;
+    transform: translateY(-2px);
+}
+article{
+    background-size: cover;
+    background-image: url(/tp1/img/texturaGris2.jpg);
+    padding: 40px;
+}
+article p{
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+#programas{
+    background-color: white;
+    background-image: none;
+    color: #000000;
+    margin: 50px;
+    padding: 10px;
+}
+h2{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    color: #000000;
+    border-top:  2px solid #0000005b;
+}
+#programas h3{
+    font-family: 'Montserrat';
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+#programas dl{
+    list-style: none;
+    
+}
+
+.programa{
+    background-image: url(/tp1/img/textura.png);
+    color: #fafafa;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+
+}
+.programa dt{
+    background-color: #92929263;
+    text-shadow: #000000;
+    padding: 5px;
+}
+.programa dd{
+    padding: 5px;
+}
+#Sumate{
+    background-image: url(/tp1/img/textura.png);
+    text-shadow: #000000;
+    color: white;
+    padding: 40px;
+}
+#Sumate h2{
+    color: white;
+    border: none;
+}
+#Sumate a{
+    text-decoration: none;
+    color: white;
+    background-color: #ca0000   ;
+    font-size: 2rem;
+    border-radius: 5%;
+    border: 5px solid #ca0000;
+    box-shadow: 0 2px 0 #cbd5e167;
+    transition: all 0.2s ease-in-out;
+}
+#Sumate a:hover{
+    background-color: #1bbeff;
+    border: 5px solid #1bbeff;
+}
+#Sumate ul{
+    border: 3px solid white;
+    background-color: #88888841;    
+}
+#Contacto{
+    background-image: url(/tp1/img/texturaGris2.jpg);
+}
+#Contacto a{
+    text-decoration: none;
+    color: #000000;
+    background-color: #00000044;
+}
+#Nosotros p{
+    letter-spacing: 3px;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#Nosotros a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+    background-color: #acacac;
+    border: 5px solid #acacac ;
+    border-radius: 5%;
+    
+}
+#Nosotros a:hover{
+    background-color: #1bbeff;
+    border: 5px solid #1bbeff;     
+}
+#historia{
+  margin-top: 150px;
+   
+}
+p{
+    letter-spacing: 3px;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#Valores{
+    margin: 0;
+    padding: 0;
+}
+#Valores h2{
+    border: 2px solid #000000;   
+}
+.valor{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    border-top: 2px solid #0000005b;
+    margin-top: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+}   
+#Valores tr{
+    background-color: #ebebebf5;
+    border-radius: 5%;
+}
+#Valores th{
+    border-left: 4px solid #1bbeff;
+    border-radius: 5%;
+}
+#Equipo table{
+    margin: auto;
+    
+}
+#Equipo th{
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding: 40px;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#Equipo td{
+    letter-spacing: 3px;
+    padding: 40px;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.1);
+}
+#Equipo img{
+    border: 3px solid black;
+    width: 600px;
+    height: auto;
+}
+#Datos dl{
+    background-image: url(/tp1/img/textura.png);
+    color: white;
+    padding: 40px;
+}
+#Datos a{
+    text-decoration: none;
+    color: white;
+}
+#Datos a:hover{
+    background-color: white;
+    color: black;
+}
+#Sumate{
+    background-image: none;
+    color: #000000;
+    border: 4px solid black;
+    margin: 300px;
 }
