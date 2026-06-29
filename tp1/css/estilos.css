@@ -368,9 +368,59 @@ p{
     background-color: white;
     color: black;
 }
-#Sumate{
+#introduccion{
+    margin-top: 200px  ;
+}
+
+#formulario{
     background-image: none;
     color: #000000;
     border: 4px solid black;
-    margin: 300px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #1bbeff21;
+
+    
+}
+
+#formulario .form{
+    letter-spacing: 2px;
+    justify-content: center ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    margin-top: 15px;
+}
+#formulario .form label{
+    margin-bottom: 10px;
+}
+#formulario .form input{
+    padding: 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    background-color: #f8fafc;
+    text-align: center;
+}
+#formulario button[type="submit"]{
+    background-color: #ca0000 ;
+    border-radius: 6px;
+    width: 20%;
+    color: white;
+    border: 4px solid #ca0000;
+    margin-bottom: 15px;
+    transition: all 0.2s ease-in-out;
+}
+#formulario button[type="submit"]:hover{
+    background-color: #1bbeff;
+    border: 4px solid #1bbeff;
+    transform: translateY(-2px);
+  
+}
+#privacidad{
+        margin-bottom: 150px;
+       
+}
+#privacidad p{
+     font-size: 15px;
 }
