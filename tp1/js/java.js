@@ -6,10 +6,9 @@
         let posicionScrollActual = window.pageYOffset;
 
         if (ultimaPosicionScroll < posicionScrollActual) {
-            // Si bajas, esconde el header moviéndolo hacia arriba fuera de la pantalla
+          
             header.style.top = "-130px"; 
         } else {
-            // Si subes, vuelve a mostrar el header en la posición original
             header.style.top = "0";
         }
         
@@ -45,10 +44,9 @@
         selectLugares.innerHTML =  '<option value="">-- Seleccioná un lugar de entrega --</option>';
         if (provinciaSeleccionada != '') {
         
-            // Habilitamos el segundo selector
+          
             selectLugares.disabled = false;
     
-            // Buscamos los lugares de esa provincia en nuestra lista y los agregamos
             centrosPorProvincia[provinciaSeleccionada].forEach(lugar => {
                 const nuevaOpcion = document.createElement('option');
                 nuevaOpcion.value = lugar;
