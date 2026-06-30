@@ -424,3 +424,30 @@ p{
 #privacidad p{
      font-size: 15px;
 }
+.formulario-donar{
+    margin-top: 120px;
+    background-color: #1bbeff;
+    color: white;
+    padding: 40px;
+    border: 3px solid black;
+}
+.formulario-donar h2{
+    color: white;
+    border: none;
+}
+#selectLugares, #selectProvincia{
+    background-color: #464646;
+    color: white;
+    border: 3px solid black;
+}
+.ImgDonar img{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+    
+}
+.formulario-donar p{
+    
+    margin-top: 30px;
+}
