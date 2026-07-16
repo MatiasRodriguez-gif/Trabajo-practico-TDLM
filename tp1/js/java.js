@@ -1,20 +1,4 @@
 
-    let ultimaPosicionScroll = window.pageYOffset;
-    const header = document.querySelector("header");
-
-    window.addEventListener("scroll", function() {
-        let posicionScrollActual = window.pageYOffset;
-
-        if (ultimaPosicionScroll < posicionScrollActual) {
-          
-            header.style.top = "-130px"; 
-        } else {
-            header.style.top = "0";
-        }
-        
-        ultimaPosicionScroll = posicionScrollActual;
-    });
-
     const centrosPorProvincia = {
         "Buenos Aires": [
             "Cáritas - Sede San Martín 123",
@@ -51,7 +35,7 @@
                 const nuevaOpcion = document.createElement('option');
                 nuevaOpcion.value = lugar;
                 nuevaOpcion.textContent = lugar;
-                selectLugares.appendChild(nuevaOpcion);});
+                selectLugares.append(nuevaOpcion);});
             }else{
                     selectLugares.disabled = true}
     }
